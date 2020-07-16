@@ -20,8 +20,8 @@ A Bot that plays LumberJack (game made by Gamebot on Telegram)
 
 - [Pillow](https://pillow.readthedocs.io/en/stable/) : ``` pip3 install Pillow ```
 - [opencv](https://pypi.org/project/opencv-python/) : ``` pip3 install opencv-python ```
-- [Numpy](https://numpy.org/) : ``` pip3 install numpy ``` : 
-- directKeys : made by @Code-Bullet in this repo(https://github.com/Code-Bullet/Storm-The-House-Auto-Clicker)
+- [Numpy](https://numpy.org/) : ``` pip3 install numpy ```
+- directKeys : made by [@Code-Bullet](https://github.com/Code-Bullet/) in this [repo](https://github.com/Code-Bullet/Storm-The-House-Auto-Clicker)
 
 
 # Q&A
