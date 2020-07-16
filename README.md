@@ -1,5 +1,5 @@
 # Lumerjack-bot
-A Bot that plays LumberJack of the telegram bot : gamebot
+A Bot that plays LumberJack made by Gamebot on Telegram
 
 # This bot to work needs
 
