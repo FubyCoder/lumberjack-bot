@@ -13,9 +13,9 @@ A Bot that plays LumberJack of the telegram bot : gamebot
 - Go to the terminal and start the bot using `python3 main.py`
 - Switch to the game again and **let it chop**
 
-# QA
+# Q&A
 
-- The bot will not let you move my mouse when it starts , how can i gain controll again ? 
+- **The bot will not let you move my mouse when it starts , how can i gain controll again ? **
 - Use the CRTL+ALT+CANC combination for 5 seconds , the app will crash and you can move again :)
 
 
