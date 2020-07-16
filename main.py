@@ -4,21 +4,8 @@ from directKeys import click , queryMousePosition
 import cv2 
 import time
 
-LEFT_TREE = [28,322]       # every 100px in y there is one tree
-RIGHT_TREE = [155,322]      # every 100px in y there is one tree
 
-LEFT_BTN = [880,760]
-RIGHT_BTN = [1040,760]
-
-time.sleep(5)
-
-lastChop = False
-lastBTN = LEFT_TREE
-
-left : {
-    "a" : 0,
-    "b" : 0,
-}
+START_DELAY = 5 # in seconds
 
 
 
@@ -75,12 +62,10 @@ def checkBest(x , array) :
     return maxTimes
 
 
-def clickLeft() :
-    click(btn["left"]["x"],btn["left"]["y"])
-
-def clickRight() : 
-    click(btn["right"]["x"],btn["right"]["y"])
-
+    
+time.sleep(START_DELAY)
+    
+    
 for i in range(10000) : 
     mousePos = queryMousePosition()
     screen = np.array(ImageGrab.grab(bbox =(863, 145, 1073, 602)))
@@ -99,33 +84,3 @@ for i in range(10000) :
         time.sleep(.05)
 
     time.sleep(.03)
-
-   #if times < 4 :
-   #    time.sleep(1)
-   #    if val[1] == "left" :
-   #        clickRight()
-   #        print("RIGHT")
-   #    else :
-   #        clickLeft()
-   #        print("LEFT")
-
-    
-
-
-#   if  not lastChop :
-#     if screen [LEFT_TREE[1]][LEFT_TREE[0]] < screen [RIGHT_TREE[1]][RIGHT_TREE[0]] :
-#          click(RIGHT_BTN[0],RIGHT_BTN[1])
-#          lastBTN = RIGHT_BTN
-#      else:
-#          click(LEFT_BTN[0],LEFT_BTN[1])
-#          lastBTN = LEFT_BTN
-#   else :
-#       click(lastBTN[0],lastBTN[1])
-#       lastChop = False;
-#  
-#   if screen [LEFT_TREE[1]][LEFT_TREE[0]] <90  or screen [RIGHT_TREE[1]][RIGHT_TREE[0]] < 90:
-#     lastChop = True;
-    
-
-
-
