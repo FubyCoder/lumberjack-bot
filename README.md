@@ -15,8 +15,9 @@ A Bot that plays LumberJack of the telegram bot : gamebot
 
 # Q&A
 
-- **The bot will not let you move my mouse when it starts , how can i gain controll again ? **
-- Use the CRTL+ALT+CANC combination for 5 seconds , the app will crash and you can move again :)
+**The bot will not let you move my mouse when it starts , how can i gain controll again ?**
+
+Use the CRTL+ALT+CANC combination for 5 seconds , the app will crash and you can move again :)
 
 
 ## Libraries 
