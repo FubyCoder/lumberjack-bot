@@ -1,17 +1,18 @@
 # Lumerjack-bot
 A Bot that plays LumberJack made by Gamebot on Telegram
 
-# This bot to work needs
+# This bot needs
 
+- Windows as OS
 - 1920 x 1080 monitor as screen 1
-- Telegram Web , opened as max height and width window in the screen 1
+- Telegram Web , opened as max height and width in windowed mode, in screen 1
 
 # How to use it
 
 - Intall the Libraries below with the pip3 command
 - Open a the Lumberjack game on Telegram, without chop any tree
 - Go to the terminal and start the bot using `python3 main.py`
-- Switch to the game again and **let it chop**
+- Switch to telegram fast and **let it chop**
 
 # Q&A
 
