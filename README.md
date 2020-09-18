@@ -1,6 +1,5 @@
 # Lumberjack-bot
-A Bot that plays LumberJack (game made by Gamebot on Telegram)
-
+A Bot that plays [LumberJack](https://tbot.xyz/lumber/)
 # This bot needs
 
 - Windows as OS
